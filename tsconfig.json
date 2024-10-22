@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",         // Esto define a qué versión de ECMAScript será convertido el código.
+    "module": "commonjs",       // Usa el sistema de módulos CommonJS, que es el estándar para Node.js.
+    "outDir": "./dist",         // El código compilado será guardado en la carpeta 'dist'.
+    "rootDir": "./src",         // El código fuente estará en la carpeta 'src'.
+    "strict": true,             // Esto habilita el modo estricto de TypeScript para mayor seguridad en los tipos.
+    "esModuleInterop": true     // Permite importar módulos compatibles con ES6 y CommonJS.
+  }
+}
